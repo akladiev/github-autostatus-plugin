@@ -129,7 +129,7 @@ public class InfluxDbNotifier extends BuildNotifier {
      */
     @Override
     public boolean wantsOutOfStageErrors() {
-        return true;
+        return false;
     }
 
     /**
